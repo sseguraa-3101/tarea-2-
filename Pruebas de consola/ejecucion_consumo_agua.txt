@@ -1,0 +1,38 @@
+=== A01 | CUMPLE | Semana mixta y máximo repetido ===
+ENTRADAS EN ORDEN: 0, 150, 180, 90, 180, 120, 50
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Día 1 | consumo de agua (L): Día 2 | consumo de agua (L): Día 3 | consumo de agua (L): Día 4 | consumo de agua (L): Día 5 | consumo de agua (L): Día 6 | consumo de agua (L): Día 7 | consumo de agua (L): Total semanal: 770.00 L
+Promedio diario: 110.00 L/día
+Mayor consumo: 180.00 L
+Días con más de 150 L: 2
+
+=== A02 | CUMPLE | Siete lecturas en el umbral ===
+ENTRADAS EN ORDEN: 150, 150, 150, 150, 150, 150, 150
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Día 1 | consumo de agua (L): Día 2 | consumo de agua (L): Día 3 | consumo de agua (L): Día 4 | consumo de agua (L): Día 5 | consumo de agua (L): Día 6 | consumo de agua (L): Día 7 | consumo de agua (L): Total semanal: 1050.00 L
+Promedio diario: 150.00 L/día
+Mayor consumo: 150.00 L
+Días con más de 150 L: 0
+
+=== A03 | CUMPLE | Reintentos y semana sin consumo ===
+ENTRADAS EN ORDEN: -1, x, 0, 0, 0, 0, 0, 0, 0
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Día 1 | consumo de agua (L): Consumo inválido: ingrese un número finito mayor o igual que cero.
+Día 1 | consumo de agua (L): Consumo inválido: ingrese un número finito mayor o igual que cero.
+Día 1 | consumo de agua (L): Día 2 | consumo de agua (L): Día 3 | consumo de agua (L): Día 4 | consumo de agua (L): Día 5 | consumo de agua (L): Día 6 | consumo de agua (L): Día 7 | consumo de agua (L): Total semanal: 0.00 L
+Promedio diario: 0.00 L/día
+Mayor consumo: 0.00 L
+Días con más de 150 L: 0
+
+=== A04 | CUMPLE | Reingreso y promedio con fracción ===
+ENTRADAS EN ORDEN: -8, 160, 100, 100, 100, 100, 100, 100
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Día 1 | consumo de agua (L): Consumo inválido: ingrese un número finito mayor o igual que cero.
+Día 1 | consumo de agua (L): Día 2 | consumo de agua (L): Día 3 | consumo de agua (L): Día 4 | consumo de agua (L): Día 5 | consumo de agua (L): Día 6 | consumo de agua (L): Día 7 | consumo de agua (L): Total semanal: 760.00 L
+Promedio diario: 108.57 L/día
+Mayor consumo: 160.00 L
+Días con más de 150 L: 1

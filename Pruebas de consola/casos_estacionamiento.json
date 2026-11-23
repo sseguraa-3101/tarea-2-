@@ -1,0 +1,113 @@
+[
+  {
+    "id": "P01",
+    "escenario": "Salida en vacío y opción inexistente",
+    "entrada": [
+      "2",
+      "9",
+      "3",
+      "4",
+      "5"
+    ],
+    "esperado": "Rechaza la salida y la opción 9. Muestra 20 libres, cero salidas y ₡0.",
+    "verificar": [
+      "Estacionamiento vacío.",
+      "Opción inválida.",
+      "Ocupados: 0 | Libres: 20",
+      "Recaudación: ₡0 | Salidas: 0",
+      "Resumen final | Ocupados: 0 | Salidas: 0 | Recaudación: ₡0"
+    ],
+    "ausentes": [
+      "Horas enteras por cobrar:"
+    ]
+  },
+  {
+    "id": "P02",
+    "escenario": "Intento de ingreso número 21",
+    "entrada": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "3",
+      "5"
+    ],
+    "esperado": "Acepta 20 ingresos, rechaza el siguiente y cuenta cero espacios libres.",
+    "verificar": [
+      "Estacionamiento lleno. Ingreso rechazado.",
+      "Ocupados: 20 | Libres: 0",
+      "Resumen final | Ocupados: 20 | Salidas: 0 | Recaudación: ₡0"
+    ],
+    "conteos": {
+      "Ingreso registrado.": 20,
+      "Ingreso rechazado.": 1
+    }
+  },
+  {
+    "id": "P03",
+    "escenario": "Dos cobros y horas inválidas",
+    "entrada": [
+      "1",
+      "1",
+      "2",
+      "0",
+      "-1",
+      "1.5",
+      "3",
+      "3",
+      "2",
+      "2",
+      "4",
+      "5"
+    ],
+    "esperado": "Rechaza tres duraciones. Cobra ₡2400 y ₡1600. Termina vacío, con dos salidas y ₡4000.",
+    "verificar": [
+      "Horas inválidas",
+      "Salida registrada. Pago: ₡2400",
+      "Ocupados: 1 | Libres: 19",
+      "Salida registrada. Pago: ₡1600",
+      "Recaudación: ₡4000 | Salidas: 2",
+      "Resumen final | Ocupados: 0 | Salidas: 2 | Recaudación: ₡4000"
+    ],
+    "conteos": {
+      "Horas inválidas": 3
+    }
+  },
+  {
+    "id": "P04",
+    "escenario": "Cierre con un vehículo dentro",
+    "entrada": [
+      "1",
+      "1",
+      "3",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "esperado": "Antes de la salida hay dos vehículos y 18 espacios libres. El cobro de tres horas deja un vehículo, una salida y ₡2400.",
+    "verificar": [
+      "Ocupados: 2 | Libres: 18",
+      "Salida registrada. Pago: ₡2400",
+      "Recaudación: ₡2400 | Salidas: 1",
+      "Resumen final | Ocupados: 1 | Salidas: 1 | Recaudación: ₡2400"
+    ]
+  }
+]

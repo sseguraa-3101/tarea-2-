@@ -1,0 +1,95 @@
+[
+  {
+    "id": "A01",
+    "escenario": "Semana mixta y máximo repetido",
+    "entrada": [
+      "0",
+      "150",
+      "180",
+      "90",
+      "180",
+      "120",
+      "50"
+    ],
+    "esperado": "770 L en total, 110 L/día, máximo de 180 L y dos días sobre 150 L.",
+    "verificar": [
+      "Total semanal: 770.00 L",
+      "Promedio diario: 110.00 L/día",
+      "Mayor consumo: 180.00 L",
+      "Días con más de 150 L: 2"
+    ]
+  },
+  {
+    "id": "A02",
+    "escenario": "Siete lecturas en el umbral",
+    "entrada": [
+      "150",
+      "150",
+      "150",
+      "150",
+      "150",
+      "150",
+      "150"
+    ],
+    "esperado": "1050 L, promedio y máximo de 150 L, cero días por encima.",
+    "verificar": [
+      "Total semanal: 1050.00 L",
+      "Promedio diario: 150.00 L/día",
+      "Mayor consumo: 150.00 L",
+      "Días con más de 150 L: 0"
+    ]
+  },
+  {
+    "id": "A03",
+    "escenario": "Reintentos y semana sin consumo",
+    "entrada": [
+      "-1",
+      "x",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "esperado": "Repite el día 1 dos veces. El total, el promedio, el máximo y el contador quedan en cero.",
+    "verificar": [
+      "Consumo inválido",
+      "Total semanal: 0.00 L",
+      "Promedio diario: 0.00 L/día",
+      "Mayor consumo: 0.00 L",
+      "Días con más de 150 L: 0"
+    ],
+    "conteos": {
+      "Día 1 |": 3,
+      "Consumo inválido": 2,
+      "Día 7 |": 1
+    }
+  },
+  {
+    "id": "A04",
+    "escenario": "Reingreso y promedio con fracción",
+    "entrada": [
+      "-8",
+      "160",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100"
+    ],
+    "esperado": "El día 1 se repite. Se registran 760 L, un promedio de 108.57 L/día, un máximo de 160 L y un día sobre 150 L.",
+    "verificar": [
+      "Consumo inválido",
+      "Total semanal: 760.00 L",
+      "Promedio diario: 108.57 L/día",
+      "Mayor consumo: 160.00 L",
+      "Días con más de 150 L: 1"
+    ],
+    "conteos": {
+      "Día 1 |": 2
+    }
+  }
+]

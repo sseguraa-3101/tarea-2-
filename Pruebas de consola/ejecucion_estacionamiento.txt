@@ -1,0 +1,309 @@
+=== P01 | CUMPLE | Salida en vacío y opción inexistente ===
+ENTRADAS EN ORDEN: 2, 9, 3, 4, 5
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Estacionamiento vacío. No hay salidas por registrar.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Opción inválida. Seleccione del 1 al 5.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ocupados: 0 | Libres: 20
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Recaudación: ₡0 | Salidas: 0
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Resumen final | Ocupados: 0 | Salidas: 0 | Recaudación: ₡0
+
+=== P02 | CUMPLE | Intento de ingreso número 21 ===
+ENTRADAS EN ORDEN: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 5
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Estacionamiento lleno. Ingreso rechazado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ocupados: 20 | Libres: 0
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Resumen final | Ocupados: 20 | Salidas: 0 | Recaudación: ₡0
+
+=== P03 | CUMPLE | Dos cobros y horas inválidas ===
+ENTRADAS EN ORDEN: 1, 1, 2, 0, -1, 1.5, 3, 3, 2, 2, 4, 5
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Horas enteras por cobrar: Horas inválidas: ingrese un entero mayor que cero.
+Horas enteras por cobrar: Horas inválidas: ingrese un entero mayor que cero.
+Horas enteras por cobrar: Horas inválidas: ingrese un entero mayor que cero.
+Horas enteras por cobrar: Salida registrada. Pago: ₡2400
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ocupados: 1 | Libres: 19
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Horas enteras por cobrar: Salida registrada. Pago: ₡1600
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Recaudación: ₡4000 | Salidas: 2
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Resumen final | Ocupados: 0 | Salidas: 2 | Recaudación: ₡4000
+
+=== P04 | CUMPLE | Cierre con un vehículo dentro ===
+ENTRADAS EN ORDEN: 1, 1, 3, 2, 3, 4, 5
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ingreso registrado.
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Ocupados: 2 | Libres: 18
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Horas enteras por cobrar: Salida registrada. Pago: ₡2400
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Recaudación: ₡2400 | Salidas: 1
+
+1. Registrar ingreso
+2. Registrar salida
+3. Consultar ocupación
+4. Consultar recaudación
+5. Salir
+Opción: Resumen final | Ocupados: 1 | Salidas: 1 | Recaudación: ₡2400

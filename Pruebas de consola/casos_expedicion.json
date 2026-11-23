@@ -1,0 +1,136 @@
+[
+  {
+    "id": "E01",
+    "escenario": "Cumplimiento del plan y saldo del ejemplo",
+    "entrada": [
+      "2",
+      "55",
+      "24",
+      "20",
+      "12"
+    ],
+    "esperado": "Dos jornadas. Consume 75 L y 36 unidades. Quedan 75 L y 64 unidades. Promedios de 37.5 L y 18 unidades.",
+    "verificar": [
+      "Saldo: 95.0 L de agua | 76.0 unid. de alimento",
+      "Saldo: 75.0 L de agua | 64.0 unid. de alimento",
+      "Jornadas completadas: 2 de 2",
+      "Consumo total: 75.00 L de agua | 36.00 unid. de alimento",
+      "Inventario final: 75.0 L de agua | 64.0 unid. de alimento",
+      "Promedio diario: 37.50 L de agua | 18.00 unid. de alimento",
+      "Estado: Completada"
+    ]
+  },
+  {
+    "id": "E02",
+    "escenario": "Agua agotada antes del último día",
+    "entrada": [
+      "3",
+      "100",
+      "10",
+      "50",
+      "20"
+    ],
+    "esperado": "Interrumpe tras dos días de tres. Quedan 0 L y 70 unidades. Promedios de 75 L y 15 unidades.",
+    "verificar": [
+      "Jornadas completadas: 2 de 3",
+      "Consumo total: 150.00 L de agua | 30.00 unid. de alimento",
+      "Inventario final: 0.0 L de agua | 70.0 unid. de alimento",
+      "Promedio diario: 75.00 L de agua | 15.00 unid. de alimento",
+      "Estado: Interrumpida por agotamiento de agua"
+    ],
+    "ausentes": [
+      "Jornada 3 |"
+    ]
+  },
+  {
+    "id": "E03",
+    "escenario": "Validación del plan y de ambos consumos",
+    "entrada": [
+      "0",
+      "31",
+      "1.5",
+      "1",
+      "151",
+      "0",
+      "150",
+      "101",
+      "-1",
+      "100"
+    ],
+    "esperado": "Rechaza tres planes y cuatro consumos. Al agotar ambos recursos el último día, completa el plan.",
+    "verificar": [
+      "Duración inválida.",
+      "Agua inválida.",
+      "Alimento inválido.",
+      "Jornadas completadas: 1 de 1",
+      "Consumo total: 150.00 L de agua | 100.00 unid. de alimento",
+      "Inventario final: 0.0 L de agua | 0.0 unid. de alimento",
+      "Promedio diario: 150.00 L de agua | 100.00 unid. de alimento",
+      "Estado: Completada"
+    ],
+    "conteos": {
+      "Duración inválida.": 3,
+      "Agua inválida.": 2,
+      "Alimento inválido.": 2
+    }
+  },
+  {
+    "id": "E04",
+    "escenario": "Plan máximo y agotamiento de alimento",
+    "entrada": [
+      "30",
+      "5",
+      "100"
+    ],
+    "esperado": "Acepta 30 jornadas y corta tras la primera. Conserva 145 L. Promedios de 5 L y 100 unidades.",
+    "verificar": [
+      "Jornadas completadas: 1 de 30",
+      "Consumo total: 5.00 L de agua | 100.00 unid. de alimento",
+      "Inventario final: 145.0 L de agua | 0.0 unid. de alimento",
+      "Promedio diario: 5.00 L de agua | 100.00 unid. de alimento",
+      "Estado: Interrumpida por agotamiento de alimento"
+    ],
+    "ausentes": [
+      "Jornada 2 |"
+    ]
+  },
+  {
+    "id": "E05",
+    "escenario": "Tres jornadas con saldo a favor",
+    "entrada": [
+      "3",
+      "30",
+      "20",
+      "40",
+      "25",
+      "25",
+      "15"
+    ],
+    "esperado": "Completa tres días. Consume 95 L y 60 unidades. Quedan 55 L y 40 unidades. Los promedios son 31.67 L y 20 unidades.",
+    "verificar": [
+      "Jornadas completadas: 3 de 3",
+      "Consumo total: 95.00 L de agua | 60.00 unid. de alimento",
+      "Inventario final: 55.0 L de agua | 40.0 unid. de alimento",
+      "Promedio diario: 31.67 L de agua | 20.00 unid. de alimento",
+      "Estado: Completada"
+    ]
+  },
+  {
+    "id": "E06",
+    "escenario": "Agotamiento simultáneo antes del cierre",
+    "entrada": [
+      "2",
+      "150",
+      "100"
+    ],
+    "esperado": "Interrumpe tras la primera jornada, con ambos saldos en cero. Identifica los dos recursos agotados.",
+    "verificar": [
+      "Jornadas completadas: 1 de 2",
+      "Inventario final: 0.0 L de agua | 0.0 unid. de alimento",
+      "Estado: Interrumpida por agotamiento de agua y alimento"
+    ],
+    "ausentes": [
+      "Jornada 2 |"
+    ]
+  }
+]

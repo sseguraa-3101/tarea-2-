@@ -1,0 +1,86 @@
+=== E01 | CUMPLE | Cumplimiento del plan y saldo del ejemplo ===
+ENTRADAS EN ORDEN: 2, 55, 24, 20, 12
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Jornadas previstas (1 a 30): Jornada 1 | Disponibles: 150.0 L y 100.0 unid.
+Agua consumida (L): Alimento consumido (unid.): Saldo: 95.0 L de agua | 76.0 unid. de alimento
+Jornada 2 | Disponibles: 95.0 L y 76.0 unid.
+Agua consumida (L): Alimento consumido (unid.): Saldo: 75.0 L de agua | 64.0 unid. de alimento
+Jornadas completadas: 2 de 2
+Consumo total: 75.00 L de agua | 36.00 unid. de alimento
+Inventario final: 75.0 L de agua | 64.0 unid. de alimento
+Promedio diario: 37.50 L de agua | 18.00 unid. de alimento
+Estado: Completada
+
+=== E02 | CUMPLE | Agua agotada antes del último día ===
+ENTRADAS EN ORDEN: 3, 100, 10, 50, 20
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Jornadas previstas (1 a 30): Jornada 1 | Disponibles: 150.0 L y 100.0 unid.
+Agua consumida (L): Alimento consumido (unid.): Saldo: 50.0 L de agua | 90.0 unid. de alimento
+Jornada 2 | Disponibles: 50.0 L y 90.0 unid.
+Agua consumida (L): Alimento consumido (unid.): Saldo: 0.0 L de agua | 70.0 unid. de alimento
+Jornadas completadas: 2 de 3
+Consumo total: 150.00 L de agua | 30.00 unid. de alimento
+Inventario final: 0.0 L de agua | 70.0 unid. de alimento
+Promedio diario: 75.00 L de agua | 15.00 unid. de alimento
+Estado: Interrumpida por agotamiento de agua
+
+=== E03 | CUMPLE | Validación del plan y de ambos consumos ===
+ENTRADAS EN ORDEN: 0, 31, 1.5, 1, 151, 0, 150, 101, -1, 100
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Jornadas previstas (1 a 30): Duración inválida. Ingrese un entero entre 1 y 30.
+Jornadas previstas (1 a 30): Duración inválida. Ingrese un entero entre 1 y 30.
+Jornadas previstas (1 a 30): Duración inválida. Ingrese un entero entre 1 y 30.
+Jornadas previstas (1 a 30): Jornada 1 | Disponibles: 150.0 L y 100.0 unid.
+Agua consumida (L): Agua inválida. Ingrese más de 0 y hasta 150.0 L.
+Agua consumida (L): Agua inválida. Ingrese más de 0 y hasta 150.0 L.
+Agua consumida (L): Alimento consumido (unid.): Alimento inválido. Ingrese más de 0 y hasta 100.0 unid.
+Alimento consumido (unid.): Alimento inválido. Ingrese más de 0 y hasta 100.0 unid.
+Alimento consumido (unid.): Saldo: 0.0 L de agua | 0.0 unid. de alimento
+Jornadas completadas: 1 de 1
+Consumo total: 150.00 L de agua | 100.00 unid. de alimento
+Inventario final: 0.0 L de agua | 0.0 unid. de alimento
+Promedio diario: 150.00 L de agua | 100.00 unid. de alimento
+Estado: Completada
+
+=== E04 | CUMPLE | Plan máximo y agotamiento de alimento ===
+ENTRADAS EN ORDEN: 30, 5, 100
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Jornadas previstas (1 a 30): Jornada 1 | Disponibles: 150.0 L y 100.0 unid.
+Agua consumida (L): Alimento consumido (unid.): Saldo: 145.0 L de agua | 0.0 unid. de alimento
+Jornadas completadas: 1 de 30
+Consumo total: 5.00 L de agua | 100.00 unid. de alimento
+Inventario final: 145.0 L de agua | 0.0 unid. de alimento
+Promedio diario: 5.00 L de agua | 100.00 unid. de alimento
+Estado: Interrumpida por agotamiento de alimento
+
+=== E05 | CUMPLE | Tres jornadas con saldo a favor ===
+ENTRADAS EN ORDEN: 3, 30, 20, 40, 25, 25, 15
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Jornadas previstas (1 a 30): Jornada 1 | Disponibles: 150.0 L y 100.0 unid.
+Agua consumida (L): Alimento consumido (unid.): Saldo: 120.0 L de agua | 80.0 unid. de alimento
+Jornada 2 | Disponibles: 120.0 L y 80.0 unid.
+Agua consumida (L): Alimento consumido (unid.): Saldo: 80.0 L de agua | 55.0 unid. de alimento
+Jornada 3 | Disponibles: 80.0 L y 55.0 unid.
+Agua consumida (L): Alimento consumido (unid.): Saldo: 55.0 L de agua | 40.0 unid. de alimento
+Jornadas completadas: 3 de 3
+Consumo total: 95.00 L de agua | 60.00 unid. de alimento
+Inventario final: 55.0 L de agua | 40.0 unid. de alimento
+Promedio diario: 31.67 L de agua | 20.00 unid. de alimento
+Estado: Completada
+
+=== E06 | CUMPLE | Agotamiento simultáneo antes del cierre ===
+ENTRADAS EN ORDEN: 2, 150, 100
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Jornadas previstas (1 a 30): Jornada 1 | Disponibles: 150.0 L y 100.0 unid.
+Agua consumida (L): Alimento consumido (unid.): Saldo: 0.0 L de agua | 0.0 unid. de alimento
+Jornadas completadas: 1 de 2
+Consumo total: 150.00 L de agua | 100.00 unid. de alimento
+Inventario final: 0.0 L de agua | 0.0 unid. de alimento
+Promedio diario: 150.00 L de agua | 100.00 unid. de alimento
+Estado: Interrumpida por agotamiento de agua y alimento

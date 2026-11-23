@@ -1,0 +1,32 @@
+=== T01 | CUMPLE | Sobrepaso del objetivo ===
+ENTRADAS EN ORDEN: 20, 35, 4
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Temperatura inicial (°C): Temperatura objetivo (°C): Incremento por ciclo (°C): Ciclo 1: 24.0 °C
+Ciclo 2: 28.0 °C
+Ciclo 3: 32.0 °C
+Ciclo 4: 36.0 °C
+Temperatura alcanzada: 36.0 °C
+Ciclos totales: 4
+
+=== T02 | CUMPLE | Incremento cero ===
+ENTRADAS EN ORDEN: 20, 35, 0
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Temperatura inicial (°C): Temperatura objetivo (°C): Incremento por ciclo (°C): Error: el incremento debe ser mayor que cero.
+
+=== T03 | CUMPLE | Objetivo inferior ===
+ENTRADAS EN ORDEN: 20, 15, 4
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Temperatura inicial (°C): Temperatura objetivo (°C): Incremento por ciclo (°C): Error: el objetivo debe ser mayor que la temperatura inicial.
+
+=== T04 | CUMPLE | Llegada exacta con décimas ===
+ENTRADAS EN ORDEN: 0, 0.3, 0.1
+CÓDIGO DE SALIDA: 0
+SALIDA DE CONSOLA:
+Temperatura inicial (°C): Temperatura objetivo (°C): Incremento por ciclo (°C): Ciclo 1: 0.1 °C
+Ciclo 2: 0.2 °C
+Ciclo 3: 0.3 °C
+Temperatura alcanzada: 0.3 °C
+Ciclos totales: 3

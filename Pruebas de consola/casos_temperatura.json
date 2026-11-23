@@ -1,0 +1,74 @@
+[
+  {
+    "id": "T01",
+    "escenario": "Sobrepaso del objetivo",
+    "entrada": [
+      "20",
+      "35",
+      "4"
+    ],
+    "esperado": "Lecturas de 24, 28, 32 y 36 °C. Final a 36 °C en cuatro ciclos.",
+    "verificar": [
+      "Ciclo 1: 24.0 °C",
+      "Ciclo 2: 28.0 °C",
+      "Ciclo 3: 32.0 °C",
+      "Ciclo 4: 36.0 °C",
+      "Temperatura alcanzada: 36.0 °C",
+      "Ciclos totales: 4"
+    ]
+  },
+  {
+    "id": "T02",
+    "escenario": "Incremento cero",
+    "entrada": [
+      "20",
+      "35",
+      "0"
+    ],
+    "esperado": "Se rechaza el incremento antes del primer ciclo.",
+    "verificar": [
+      "Error: el incremento debe ser mayor que cero."
+    ],
+    "ausentes": [
+      "Ciclo 1",
+      "Temperatura alcanzada:"
+    ]
+  },
+  {
+    "id": "T03",
+    "escenario": "Objetivo inferior",
+    "entrada": [
+      "20",
+      "15",
+      "4"
+    ],
+    "esperado": "Termina con el motivo del rechazo y cero iteraciones.",
+    "verificar": [
+      "Error: el objetivo debe ser mayor que la temperatura inicial."
+    ],
+    "ausentes": [
+      "Ciclo 1",
+      "Temperatura alcanzada:"
+    ]
+  },
+  {
+    "id": "T04",
+    "escenario": "Llegada exacta con décimas",
+    "entrada": [
+      "0",
+      "0.3",
+      "0.1"
+    ],
+    "esperado": "Llega a 0.3 °C en exactamente tres ciclos.",
+    "verificar": [
+      "Ciclo 1: 0.1 °C",
+      "Ciclo 2: 0.2 °C",
+      "Ciclo 3: 0.3 °C",
+      "Temperatura alcanzada: 0.3 °C",
+      "Ciclos totales: 3"
+    ],
+    "ausentes": [
+      "Ciclo 4:"
+    ]
+  }
+]
